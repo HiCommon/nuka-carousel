@@ -215,8 +215,6 @@ const Carousel = React.createClass({
 
     if (self.props.swiping === false) {
       return null;
-    } else {
-      self.clickSafe = true;
     }
 
     return {
@@ -266,15 +264,13 @@ const Carousel = React.createClass({
     }
   },
 
-  clickSafe: false,
+  clickSafe: true,
 
   getMouseEvents() {
     var self = this;
 
     if (this.props.dragging === false) {
       return null;
-    } else {
-      self.clickSafe = true;
     }
 
     return {
