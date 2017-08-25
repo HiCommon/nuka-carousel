@@ -265,7 +265,7 @@ const Carousel = createReactClass({
     }
   },
 
-  clickSafe: true,
+  clickSafe: false,
 
   getMouseEvents() {
     var self = this;
