@@ -93,7 +93,7 @@ const DefaultDecorators = [
           left: '-60px',
           height: '40px',
           width: '20px',
-          backgroundImage: 'url("../static/images/sliders/slider-prev.svg")',
+          backgroundImage: 'url("../static/images/sliders/slider-next.svg")',
           backgroundSize: '20px 40px'
         }
       }
